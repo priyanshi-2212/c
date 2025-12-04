@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #7e22ce, #c084fc, #f5d0fe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.greet-card {
+  background: linear-gradient(to right, #8a2bff, #a457f6, #c58fff);
+  padding: 50px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(111, 66, 193, 0.3);
+}
+
+.greet-card h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.greet-card p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 12px 30px;
+  background:  #8a2bff;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background:#9675ff;
+  color: #fff;
+}
